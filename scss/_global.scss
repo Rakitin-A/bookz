@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+}
+body {
+    font-size: 14px;
+    line-height: 26px;
+    color: $title;
+    @extend %ibm-400;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.btn {
+    font-size: 15px;
+    line-height: 16px;
+    color: #ffffff;
+    border-radius: 3px;
+    border: none;
+    background-color: #2615e4;
+    padding: 15px 14px;
+    @extend %ibm-500;
+}
+a {
+    color: $default;
+    @extend %ibm-400;
+}
+
+.page__wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sidebar{
+    flex: 0 0 241px;
+    width: 241px; 
+}
+.genere-link {
+    color: #2615e4;
+    font-size: 14px;
+    line-height: 20px;
+    @extend %ibm-400;
+}
+// .title{
+//     text-align: center;
+//     @extend %roboto-700;
+//     font-size: 48px;
+//     line-height: 65px;
+//     color: $title;
+//     margin-bottom: 10px;
+//     text-transform: uppercase;
+// }
